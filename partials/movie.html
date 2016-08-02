@@ -5,17 +5,20 @@
         <img ng-src="{{SC.OmdbSearch.movie.Poster}}">
       </div>
       <div class="card-stacked">
-        <div class="card-content">
-          <p>Title: {{SC.OmdbSearch.movie.Title}}</p>
-          <p>Year: {{SC.OmdbSearch.movie.Year}}</p>
-          <p>Rated: {{SC.OmdbSearch.movie.Rated}}</p>
-          <p>Released: {{SC.OmdbSearch.movie.Released}}</p>
-          <p>Runtime: {{SC.OmdbSearch.movie.Runtime}}</p>
-          <p>Director: {{SC.OmdbSearch.movie.Director}}</p>
-          <p>Writer: {{SC.OmdbSearch.movie.Writer}}</p>
-          <p>Actors: {{SC.OmdbSearch.movie.Actors}}</p>
-          <p>Plot: {{SC.OmdbSearch.movie.Plot}}</p>
-          <p>Metascore: {{SC.OmdbSearch.movie.Metascore}}</p>
+        <div class="card-content" id="movie-card-content">
+          <p><strong>Title:</strong> {{SC.OmdbSearch.movie.Title}}</p>
+          <div class="divider"></div>
+          <p><strong>Year:</strong> {{SC.OmdbSearch.movie.Year}}</p>
+          <p><strong>Rated:</strong> {{SC.OmdbSearch.movie.Rated}}</p>
+          <p><strong>Released:</strong> {{SC.OmdbSearch.movie.Released}}</p>
+          <p><strong>Runtime:</strong> {{SC.OmdbSearch.movie.Runtime}}</p>
+          <p><strong>Metascore:</strong> {{SC.OmdbSearch.movie.Metascore}}</p>
+          <div class="divider"></div>
+          <p><strong>Director:</strong> {{SC.OmdbSearch.movie.Director}}</p>
+          <p><strong>Writer:</strong> {{SC.OmdbSearch.movie.Writer}}</p>
+          <p><strong>Actors:</strong> {{SC.OmdbSearch.movie.Actors}}</p>
+          <div class="divider"></div>
+          <p><strong>Plot:</strong> {{SC.OmdbSearch.movie.Plot}}</p>
         </div>
       </div>
     </div>
